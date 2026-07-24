@@ -1,21 +1,124 @@
-# EditKaro.in Deployment Configuration
+# 🎬 EditKaro.in Portfolio Website
 
-## 1. Netlify Deployment
-`netlify.toml` file is included in this repository. 
-Simply push to GitHub and import into Netlify, or run:
-```bash
-npx netlify-cli deploy --prod
+## 📌 Project Overview
+
+EditKaro.in is a responsive portfolio website developed for a video editing and social media marketing agency. The website showcases services, portfolio projects, team members, company information, and a contact page.
+
+The project is built using **HTML5, CSS3, and JavaScript** with a modern responsive UI.
+
+---
+
+## 🚀 Features
+
+- Responsive Navigation Bar
+- Hero Section
+- Services Section
+- Portfolio with Category Filters
+- Video Popup Modal
+- Search Functionality
+- About Us Page
+- Team Page
+- Contact Form
+- FAQ Section
+- Google Maps Integration
+- Newsletter Subscription
+- Scroll Animations
+- Scroll-to-Top Button
+- Mobile Responsive Design
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Font Awesome
+- Google Fonts
+
+---
+
+## 📁 Project Structure
+
+```
+EditKaro/
+│
+├── index.html
+├── about.html
+├── portfolio.html
+├── team.html
+├── contact.html
+│
+├── css/
+│   ├── style.css
+│   └── portfolio.css
+│
+├── js/
+│   ├── script.js
+│   └── portfolio.js
+│
+├── images/
+│
+├── videos/
+│
+└── README.md
 ```
 
-## 2. Vercel Deployment
-`vercel.json` file is included in this repository.
-Simply run:
-```bash
-npx vercel --prod
-```
+---
 
-## 3. GitHub Pages Deployment
-1. Push this directory to a public GitHub repository.
-2. Go to **Settings** > **Pages**.
-3. Select `main` branch and `/ (root)` folder.
-4. Click **Save**.
+## 📷 Website Pages
+
+### Home
+- Hero Banner
+- Services
+- Portfolio Preview
+- Newsletter
+- Footer
+
+### About
+- Company Story
+- Mission & Vision
+- Skills
+- Achievements
+
+### Portfolio
+- Video Categories
+- Search
+- Video Popup
+- Filter Buttons
+
+### Team
+- Team Members
+- Achievements
+- Join Team
+
+### Contact
+- Contact Form
+- Google Map
+- FAQ
+- Social Links
+
+---
+
+## 🎯 Future Improvements
+
+- Admin Dashboard
+- Blog Page
+- Dark/Light Theme Toggle
+- Backend Database Integration
+- User Authentication
+- Online Booking System
+
+---
+
+## 👨‍💻 Developed By
+
+**EditKaro Portfolio Website**
+
+Developed using HTML, CSS and JavaScript.
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
