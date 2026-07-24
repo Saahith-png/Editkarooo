@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EditKaro | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--================ NAVBAR ================-->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                Edit<span>Karo</span>
+            </a>
+
+            <nav class="navbar">
+
+                <ul class="nav-links">
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+
+                    <li><a href="team.html">Team</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--================ PAGE TITLE ================-->
+
+    <section class="portfolio-banner">
+
+        <div class="container">
+
+            <h1>Our Portfolio</h1>
+
+            <p>
+
+                Explore our creative video editing projects
+                across different industries and content styles.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--================ SEARCH ================-->
+
+    <section class="portfolio-search">
+
+        <div class="container">
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search videos...">
+
+        </div>
+
+    </section>
+
+    <!--================ FILTER BUTTONS ================-->
+
+    <section class="portfolio-section">
+
+        <div class="container">
+
+            <div class="portfolio-filter">
+
+                <button class="filter-btn active"
+                    data-filter="all">
+
+                    All
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="short">
+
+                    Short Form
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="long">
+
+                    Long Form
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="gaming">
+
+                    Gaming
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="football">
+
+                    Football
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="ads">
+
+                    Ads
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="anime">
+
+                    Anime
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="documentary">
+
+                    Documentary
+
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="grading">
+
+                    Color Grading
+
+                </button>
+
+            </div>
+
+            <!--================ VIDEO GRID ================-->
+
+            <div class="portfolio-grid">
+
+                <div class="portfolio-card short">
+
+                    <img src="images/portfolio1.jpg"
+                        alt="Instagram Reel">
+
+                    <div class="overlay">
+
+                        <h3>Instagram Reel</h3>
+
+                        <p>Short Form Editing</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card gaming">
+
+                    <img src="images/portfolio2.jpg"
+                        alt="Gaming">
+
+                    <div class="overlay">
+
+                        <h3>Gaming Montage</h3>
+
+                        <p>Gaming Video</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card football">
+
+                    <img src="images/portfolio3.jpg"
+                        alt="Football">
+
+                    <div class="overlay">
+
+                        <h3>Football Highlights</h3>
+
+                        <p>Sports Edit</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card ads ecommerce">
+
+                    <img src="images/portfolio4.jpg"
+                        alt="eCommerce Advertisement">
+
+                    <div class="overlay">
+
+                        <h3>eCommerce Ad</h3>
+
+                        <p>High-converting Product Ad</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card documentary">
+
+                    <img src="images/portfolio5.jpg" alt="Documentary">
+
+                    <div class="overlay">
+
+                        <h3>Documentary Edit</h3>
+
+                        <p>Cinematic Storytelling</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card grading">
+
+                    <img src="images/portfolio6.jpg" alt="Color Grading">
+
+                    <div class="overlay">
+
+                        <h3>Color Grading</h3>
+
+                        <p>Professional Cinematic Look</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card anime">
+
+                    <img src="images/portfolio7.jpg" alt="Anime">
+
+                    <div class="overlay">
+
+                        <h3>Anime AMV</h3>
+
+                        <p>Anime Video Editing</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-card long">
+
+                    <img src="images/portfolio8.jpg" alt="Long Form">
+
+                    <div class="overlay">
+
+                        <h3>YouTube Documentary</h3>
+
+                        <p>Long Form Editing</p>
+
+                        <button class="watch-btn"
+                            data-video="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1">
+
+                            Watch Video
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ VIDEO POPUP ================-->
+
+    <div class="video-modal" id="videoModal">
+
+        <div class="modal-content">
+
+            <span class="close-modal">&times;</span>
+
+            <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:20px;background:#000;">
+                <iframe id="portfolioIframe" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--================ FOOTER ================-->
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <div class="footer-box">
+
+                <h2>Edit<span>Karo</span></h2>
+
+                <p>
+                    Creative Video Editing & Digital Marketing Agency.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Follow Us</h3>
+
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>&copy; 2026 EditKaro.in | All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>
